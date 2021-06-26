@@ -12,6 +12,7 @@ public class AppTest
     @Test
     public void testApp()
     {
+        System.out.println(" We are doing the best");
         assertEquals("Hello world", app.greet("world"));
     }
 
